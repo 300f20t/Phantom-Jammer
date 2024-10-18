@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "phantom_jammer:blocks/phantom_jammer",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "phantom_jammer:phantom_jammer"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "mod_elements": [
+    {
+      "name": "PhantomJammer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantom_jammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/phantom_jammer/loot_tables/blocks/phantom_jammer.json",
+          "src/main/resources/assets/phantom_jammer/models/item/phantom_jammer.json",
+          "src/main/resources/assets/phantom_jammer/blockstates/phantom_jammer.json",
+          "src/main/resources/assets/phantom_jammer/models/block/phantom_jammer.json",
+          "src/main/java/net/mcreator/phantomjammer/block/PhantomJammerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PhantomJammerRiedstounVkliuchion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantom_jammer_riedstoun_vkliuchion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/phantomjammer/procedures/PhantomJammerRiedstounVkliuchionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PhantomJammerCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantom_jammer_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/phantom_jammer/recipes/phantom_jammer_craft.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PhantomJammer"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:PhantomJammer"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "ru_ru": {
+      "block.phantom_jammer.phantom_jammer": "Глушилка фантомов"
+    },
+    "en_us": {
+      "block.phantom_jammer.phantom_jammer": "Phantom Jammer"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "phantom_jammer",
+    "modName": "Phantom Jammer",
+    "version": "1.0.0",
+    "author": "maksi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.phantomjammer"
+  },
+  "mcreatorVersion": 202400232117
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "phantom_jammer_texture"
+      },
+      "name": "default"
+    }
+  }
+}

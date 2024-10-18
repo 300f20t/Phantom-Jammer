@@ -1,0 +1,9 @@
+{
+  "parent": "phantom_jammer:custom/phantom_jammer",
+  "textures": {
+    "all": "phantom_jammer:block/phantom_jammer_texture",
+    "particle": "phantom_jammer:block/phantom_jammer_texture",
+    "0": "phantom_jammer:block/phantom_jammer_texture"
+  },
+  "render_type": "solid"
+}
